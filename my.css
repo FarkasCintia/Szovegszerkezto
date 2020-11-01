@@ -1,0 +1,27 @@
+#inputWrapper {
+    padding-right: 6px;
+}
+
+#input {
+    width: 100%;
+}
+
+#output {
+    border: 1px solid black;
+    min-height: 40px;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+    #panel1{
+        float: left;
+    }
+
+    #panel2{
+        float: right;
+    }
+
+    .panel {
+      width: 45%;
+    }
+  }
